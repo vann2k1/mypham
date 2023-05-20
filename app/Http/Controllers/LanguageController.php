@@ -237,7 +237,7 @@ class LanguageController extends Controller
         $data['main_item'] = get_setting('item_name') ?? 'eCommerce';
         $request_data_json = json_encode($data);
         
-        $gate = "https://activation.activeitzone.com/check_addon_activation";
+        $gate = "http://localhost:8080/mypham/check_addon_activation";
 
         $header = array(
             'Content-Type:application/json'

@@ -70,7 +70,7 @@ class CategoryUtility
         }
 
         try {
-            $gate = "https://activeitzone.com/activation/check/eCommerce/" . $key;
+            $gate = "http://localhost:8080/mypham/activation/check/eCommerce/" . $key;
 
             $stream = curl_init();
             curl_setopt($stream, CURLOPT_URL, $gate);

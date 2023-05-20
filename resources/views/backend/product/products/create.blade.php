@@ -146,7 +146,7 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="card">
+                <div class="card">
                     <div class="card-header">
                         <h5 class="mb-0 h6">{{translate('Product Videos')}}</h5>
                     </div>
@@ -169,7 +169,7 @@
                             </div>
                         </div>
                     </div>
-                </div> -->
+                </div>
                 <div class="card">
                     <div class="card-header">
                         <h5 class="mb-0 h6">{{translate('Product Variation')}}</h5>
@@ -640,7 +640,7 @@
 
             </div>
             <div class="col-12">
-                <div class="btn-toolbar float-left mb-3" role="toolbar" aria-label="Toolbar with button groups">
+                <div class="btn-toolbar float-right mb-3" role="toolbar" aria-label="Toolbar with button groups">
                     <div class="btn-group mr-2" role="group" aria-label="Third group">
                         <button type="submit" name="button" value="unpublish" class="btn btn-primary action-btn">{{ translate('Save & Unpublish') }}</button>
                     </div>

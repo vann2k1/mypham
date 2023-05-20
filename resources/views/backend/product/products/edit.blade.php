@@ -180,7 +180,7 @@
                         </div> --}}
                     </div>
                 </div>
-                <!-- <div class="card">
+                <div class="card">
                     <div class="card-header">
                         <h5 class="mb-0 h6">{{translate('Product Videos')}}</h5>
                     </div>
@@ -189,9 +189,9 @@
                             <label class="col-lg-3 col-from-label">{{translate('Video Provider')}}</label>
                             <div class="col-lg-8">
                                 <select class="form-control aiz-selectpicker" name="video_provider" id="video_provider">
-                                    <option value="youtube" <php if ($product->video_provider == 'youtube') echo "selected"; ?> >{{translate('Youtube')}}</option>
-                                    <option value="dailymotion" <php if ($product->video_provider == 'dailymotion') echo "selected"; ?> >{{translate('Dailymotion')}}</option>
-                                    <option value="vimeo" <php if ($product->video_provider == 'vimeo') echo "selected"; ?> >{{translate('Vimeo')}}</option>
+                                    <option value="youtube" <?php if ($product->video_provider == 'youtube') echo "selected"; ?> >{{translate('Youtube')}}</option>
+                                    <option value="dailymotion" <?php if ($product->video_provider == 'dailymotion') echo "selected"; ?> >{{translate('Dailymotion')}}</option>
+                                    <option value="vimeo" <?php if ($product->video_provider == 'vimeo') echo "selected"; ?> >{{translate('Vimeo')}}</option>
                                 </select>
                             </div>
                         </div>
@@ -202,7 +202,7 @@
                             </div>
                         </div>
                     </div>
-                </div> -->
+                </div>
                 <div class="card">
                     <div class="card-header">
                         <h5 class="mb-0 h6">{{translate('Product Variation')}}</h5>
@@ -335,7 +335,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="form-group row">
+                        <div class="form-group row">
                             <label class="col-md-3 col-from-label">
                                 {{translate('External link')}}
                             </label>
@@ -352,7 +352,7 @@
                                 <input type="text" placeholder="{{ translate('External link button text') }}" name="external_link_btn" value="{{ $product->external_link_btn }}" class="form-control">
                                 <small class="text-muted">{{translate('Leave it blank if you do not use external site link')}}</small>
                             </div>
-                        </div> -->
+                        </div>
                         <br>
                         <div class="sku_combination" id="sku_combination">
 
@@ -373,16 +373,16 @@
                     </div>
                 </div>
 
-<!--                <div class="card">
+               <!-- <div class="card">
                     <div class="card-header">
                         <h5 class="mb-0 h6">{{translate('Product Shipping Cost')}}</h5>
                     </div>
                     <div class="card-body">
 
                     </div>
-                </div>-->
+                </div> -->
 
-                <div class="card">
+                <!-- <div class="card">
                     <div class="card-header">
                         <h5 class="mb-0 h6">{{translate('PDF Specification')}}</h5>
                     </div>
@@ -402,7 +402,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="card">
                     <div class="card-header">
                         <h5 class="mb-0 h6">{{translate('SEO Meta Tags')}}</h5>
@@ -734,7 +734,7 @@
 
             </div>
             <div class="col-12">
-                <div class="mb-3 text-left">
+                <div class="mb-3 text-right">
                     <button type="submit" name="button" class="btn btn-info">{{ translate('Update Product') }}</button>
                 </div>
             </div>

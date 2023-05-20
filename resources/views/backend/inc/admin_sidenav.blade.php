@@ -88,7 +88,7 @@
                                     </a>
                                 </li>
                             @endcan -->
-                            <!-- @if(get_setting('vendor_system_activation') == 1)
+                            <!-- @if(get_setting('vendor_system_activation') == 0)
                                 @can('show_seller_products')
                                     <li class="aiz-side-nav-item">
                                         <a href="{{route('products.seller')}}" class="aiz-side-nav-link {{ areActiveRoutes(['products.seller', 'products.seller.edit']) }}">
@@ -1249,14 +1249,14 @@
                 @endcanany -->
 
                 <!-- Addon Manager -->
-                @can('manage_addons')
+                <!-- @can('manage_addons')
                     <li class="aiz-side-nav-item">
                         <a href="{{route('addons.index')}}" class="aiz-side-nav-link {{ areActiveRoutes(['addons.index', 'addons.create'])}}">
                             <i class="las la-wrench aiz-side-nav-icon"></i>
                             <span class="aiz-side-nav-text">{{translate('Addon Manager')}}</span>
                         </a>
                     </li>
-                @endcan
+                @endcan -->
             </ul><!-- .aiz-side-nav -->
         </div><!-- .aiz-side-nav-wrap -->
     </div><!-- .aiz-sidebar -->

@@ -79,7 +79,7 @@ class StripeController extends Controller
     {
         $data['url'] = $_SERVER['SERVER_NAME'];
         $request_data_json = json_encode($data);
-        $gate = "http://localhost/mypham/check_activation";
+        $gate = "http://localhost:8080/mypham/check_activation";
 
         $header = array(
             'Content-Type:application/json'
