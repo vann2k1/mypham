@@ -620,13 +620,13 @@
                                     </a>
                                 </li>
                             @endcan
-                            @can('send_newsletter')
+                            <!-- @can('send_newsletter')
                                 <li class="aiz-side-nav-item">
                                     <a href="{{route('newsletters.index')}}" class="aiz-side-nav-link">
                                         <span class="aiz-side-nav-text">{{ translate('Newsletters') }}</span>
                                     </a>
                                 </li>
-                            @endcan
+                            @endcan -->
                             @if (addon_is_activated('otp_system') && auth()->user()->can('send_bulk_sms'))
                                 <li class="aiz-side-nav-item">
                                     <a href="{{route('sms.index')}}" class="aiz-side-nav-link">
