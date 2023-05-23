@@ -1195,7 +1195,7 @@
                 @endcanany
 
                 <!-- Staffs -->
-                <!-- @canany(['view_all_staffs','view_staff_roles'])
+                @canany(['view_all_staffs','view_staff_roles'])
                     <li class="aiz-side-nav-item">
                         <a href="#" class="aiz-side-nav-link">
                             <i class="las la-user-tie aiz-side-nav-icon"></i>
@@ -1219,7 +1219,7 @@
                             @endcan
                         </ul>
                     </li>
-                @endcanany -->
+                @endcanany
 
                 <!-- {{-- System Update & Server Status --}}
                 @canany(['system_update','server_status'])
