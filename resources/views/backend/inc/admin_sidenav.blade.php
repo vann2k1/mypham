@@ -103,14 +103,14 @@
                                         <span class="aiz-side-nav-text">{{ translate('Digital Products') }}</span>
                                     </a>
                                 </li>
-                            @endcan
+                            @endcan -->
                             @can('product_bulk_import')
                                 <li class="aiz-side-nav-item">
                                     <a href="{{ route('product_bulk_upload.index') }}" class="aiz-side-nav-link" >
                                         <span class="aiz-side-nav-text">{{ translate('Bulk Import') }}</span>
                                     </a>
                                 </li>
-                            @endcan -->
+                            @endcan
                             <!-- @can('product_bulk_export')
                                 <li class="aiz-side-nav-item">
                                     <a href="{{route('product_bulk_export.index')}}" class="aiz-side-nav-link">
@@ -566,13 +566,13 @@
                                     </a>
                                 </li>
                             @endcan -->
-                            @can('wallet_transaction_report')
+                            <!-- @can('wallet_transaction_report')
                                 <li class="aiz-side-nav-item">
                                     <a href="{{ route('wallet-history.index') }}" class="aiz-side-nav-link">
                                         <span class="aiz-side-nav-text">{{ translate('Wallet Recharge History') }}</span>
                                     </a>
                                 </li>
-                            @endcan
+                            @endcan -->
                         </ul>
                     </li>
                 @endcanany
