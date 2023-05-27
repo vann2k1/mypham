@@ -637,13 +637,13 @@
                                     </a>
                                 </li>
                             @endif
-                            @can('view_all_subscribers')
+                            <!-- @can('view_all_subscribers')
                                 <li class="aiz-side-nav-item">
                                     <a href="{{ route('subscribers.index') }}" class="aiz-side-nav-link">
                                         <span class="aiz-side-nav-text">{{ translate('Subscribers') }}</span>
                                     </a>
                                 </li>
-                            @endcan
+                            @endcan -->
                             @if (get_setting('coupon_system') == 1 && auth()->user()->can('view_all_coupons') )
                             <li class="aiz-side-nav-item">
                                 <a href="{{route('coupon.index')}}" class="aiz-side-nav-link {{ areActiveRoutes(['coupon.index','coupon.create','coupon.edit'])}}">
